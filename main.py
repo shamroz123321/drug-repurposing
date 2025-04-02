@@ -29,7 +29,7 @@ def load_drug_data():
 drug_data = load_drug_data()
 
 # Main input
-disease_input = st.text_input("Enter disease name:", "Rheumatoid Arthritis")
+disease_input = st.text_input("Enter disease name:", "")
 
 # Filter data based on input
 if disease_input:
